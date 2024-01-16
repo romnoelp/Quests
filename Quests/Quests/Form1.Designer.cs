@@ -77,12 +77,13 @@
             // 
             // addQuestButton
             // 
-            this.addQuestButton.Font = new System.Drawing.Font("Minecraft", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.addQuestButton.Location = new System.Drawing.Point(242, 63);
+            this.addQuestButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.addQuestButton.Font = new System.Drawing.Font("Minecraft", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.addQuestButton.Location = new System.Drawing.Point(270, 75);
             this.addQuestButton.Name = "addQuestButton";
-            this.addQuestButton.Size = new System.Drawing.Size(69, 43);
+            this.addQuestButton.Size = new System.Drawing.Size(41, 31);
             this.addQuestButton.TabIndex = 0;
-            this.addQuestButton.Text = "Go on a quest!";
+            this.addQuestButton.Text = "+";
             this.addQuestButton.UseVisualStyleBackColor = true;
             this.addQuestButton.Click += new System.EventHandler(this.addQuestButton_Click);
             // 

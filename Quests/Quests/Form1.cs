@@ -26,7 +26,7 @@ namespace Quests
         {
             AddQuestForm addQuestForm = new AddQuestForm();
             addQuestForm.StartPosition = FormStartPosition.CenterScreen;
-            addQuestForm.Show();
+            addQuestForm.ShowDialog();
         }
     }
 }

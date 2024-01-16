@@ -55,20 +55,22 @@ namespace Quests
             // questLabel
             // 
             this.questLabel.Font = new System.Drawing.Font("Minecraft", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.questLabel.Location = new System.Drawing.Point(11, 12);
+            this.questLabel.Location = new System.Drawing.Point(-1, -2);
             this.questLabel.Name = "questLabel";
             this.questLabel.Size = new System.Drawing.Size(93, 40);
             this.questLabel.TabIndex = 0;
             this.questLabel.Text = "Quest:";
+            this.questLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // categoryLabel
             // 
             this.categoryLabel.Font = new System.Drawing.Font("Minecraft", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.categoryLabel.Location = new System.Drawing.Point(195, 9);
+            this.categoryLabel.Location = new System.Drawing.Point(195, -2);
             this.categoryLabel.Name = "categoryLabel";
             this.categoryLabel.Size = new System.Drawing.Size(93, 40);
             this.categoryLabel.TabIndex = 2;
-            this.categoryLabel.Text = "Quest:";
+            this.categoryLabel.Text = "Category:";
+            this.categoryLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // questCategory
             // 
@@ -76,7 +78,7 @@ namespace Quests
             this.questCategory.Font = new System.Drawing.Font("Minecraft", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.questCategory.FormattingEnabled = true;
             this.questCategory.Items.AddRange(new object[] { "Programming", "Game Dev", "Minor ", "Workout" });
-            this.questCategory.Location = new System.Drawing.Point(265, 10);
+            this.questCategory.Location = new System.Drawing.Point(283, 9);
             this.questCategory.Name = "questCategory";
             this.questCategory.Size = new System.Drawing.Size(132, 21);
             this.questCategory.TabIndex = 3;
@@ -84,7 +86,7 @@ namespace Quests
             // addQuest
             // 
             this.addQuest.Font = new System.Drawing.Font("Minecraft", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.addQuest.Location = new System.Drawing.Point(110, 60);
+            this.addQuest.Location = new System.Drawing.Point(109, 64);
             this.addQuest.Name = "addQuest";
             this.addQuest.Size = new System.Drawing.Size(210, 33);
             this.addQuest.TabIndex = 4;
@@ -95,7 +97,7 @@ namespace Quests
             // questString
             // 
             this.questString.Font = new System.Drawing.Font("Minecraft", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.questString.Location = new System.Drawing.Point(64, 9);
+            this.questString.Location = new System.Drawing.Point(89, 9);
             this.questString.Name = "questString";
             this.questString.Size = new System.Drawing.Size(125, 21);
             this.questString.TabIndex = 1;
