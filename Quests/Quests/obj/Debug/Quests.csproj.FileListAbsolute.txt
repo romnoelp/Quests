@@ -41,3 +41,46 @@ C:\Users\Rea Angeline\Downloads\Repo\Quests\Quests\Quests\bin\Debug\System.Runti
 C:\Users\Rea Angeline\Downloads\Repo\Quests\Quests\Quests\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\Rea Angeline\Downloads\Repo\Quests\Quests\Quests\obj\Debug\Quests.csproj.CopyComplete
 C:\Users\Rea Angeline\Downloads\Repo\Quests\Quests\Quests\obj\Debug\Quests.AddQuestForm.resources
+D:\Projects\Quests\Quests\Quests\bin\Debug\Quests.exe.config
+D:\Projects\Quests\Quests\Quests\bin\Debug\Quests.exe
+D:\Projects\Quests\Quests\Quests\bin\Debug\Quests.pdb
+D:\Projects\Quests\Quests\Quests\bin\Debug\BouncyCastle.Cryptography.dll
+D:\Projects\Quests\Quests\Quests\bin\Debug\Google.Protobuf.dll
+D:\Projects\Quests\Quests\Quests\bin\Debug\K4os.Compression.LZ4.dll
+D:\Projects\Quests\Quests\Quests\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\Projects\Quests\Quests\Quests\bin\Debug\K4os.Hash.xxHash.dll
+D:\Projects\Quests\Quests\Quests\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Projects\Quests\Quests\Quests\bin\Debug\MySql.Data.dll
+D:\Projects\Quests\Quests\Quests\bin\Debug\System.Buffers.dll
+D:\Projects\Quests\Quests\Quests\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\Projects\Quests\Quests\Quests\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Projects\Quests\Quests\Quests\bin\Debug\System.IO.Pipelines.dll
+D:\Projects\Quests\Quests\Quests\bin\Debug\System.Memory.dll
+D:\Projects\Quests\Quests\Quests\bin\Debug\System.Numerics.Vectors.dll
+D:\Projects\Quests\Quests\Quests\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Projects\Quests\Quests\Quests\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Projects\Quests\Quests\Quests\bin\Debug\ZstdSharp.dll
+D:\Projects\Quests\Quests\Quests\bin\Debug\BouncyCastle.Cryptography.xml
+D:\Projects\Quests\Quests\Quests\bin\Debug\Google.Protobuf.pdb
+D:\Projects\Quests\Quests\Quests\bin\Debug\Google.Protobuf.xml
+D:\Projects\Quests\Quests\Quests\bin\Debug\K4os.Compression.LZ4.xml
+D:\Projects\Quests\Quests\Quests\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\Projects\Quests\Quests\Quests\bin\Debug\K4os.Hash.xxHash.xml
+D:\Projects\Quests\Quests\Quests\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Projects\Quests\Quests\Quests\bin\Debug\MySql.Data.xml
+D:\Projects\Quests\Quests\Quests\bin\Debug\System.Buffers.xml
+D:\Projects\Quests\Quests\Quests\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Projects\Quests\Quests\Quests\bin\Debug\System.IO.Pipelines.xml
+D:\Projects\Quests\Quests\Quests\bin\Debug\System.Memory.xml
+D:\Projects\Quests\Quests\Quests\bin\Debug\System.Numerics.Vectors.xml
+D:\Projects\Quests\Quests\Quests\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Projects\Quests\Quests\Quests\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Projects\Quests\Quests\Quests\obj\Debug\Quests.csproj.AssemblyReference.cache
+D:\Projects\Quests\Quests\Quests\obj\Debug\Quests.AddQuestForm.resources
+D:\Projects\Quests\Quests\Quests\obj\Debug\Quests.Form1.resources
+D:\Projects\Quests\Quests\Quests\obj\Debug\Quests.Properties.Resources.resources
+D:\Projects\Quests\Quests\Quests\obj\Debug\Quests.csproj.GenerateResource.cache
+D:\Projects\Quests\Quests\Quests\obj\Debug\Quests.csproj.CoreCompileInputs.cache
+D:\Projects\Quests\Quests\Quests\obj\Debug\Quests.csproj.CopyComplete
+D:\Projects\Quests\Quests\Quests\obj\Debug\Quests.exe
+D:\Projects\Quests\Quests\Quests\obj\Debug\Quests.pdb

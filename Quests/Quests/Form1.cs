@@ -1,12 +1,11 @@
 ﻿using System;
 using System.Windows.Forms;
-using MySql.Data.MySqlClient;
 
 namespace Quests
 {
     public partial class Form1 : Form
     {
-        private const string connectionString = "Server=localhost;Database=quests;User ID=Aremenel;Password=root;";
+        
         
         public Form1()
         {
@@ -16,7 +15,7 @@ namespace Quests
 
         private void SpawnAtBottomLeft()
         {
-            this.StartPosition = FormStartPosition.Manual;
+            StartPosition = FormStartPosition.Manual;
             int taskbarHeight = Screen.PrimaryScreen.Bounds.Height - Screen.PrimaryScreen.WorkingArea.Height;
             int x = 0;
             int y = Screen.PrimaryScreen.Bounds.Height - taskbarHeight - this.Height; 
@@ -33,24 +32,3 @@ namespace Quests
 }
 
 
-// using (MySqlConnection connection = new MySqlConnection(connectionString))
-// {
-//     connection.Open();
-//
-//     // Replace "YourTableName" with the actual name of your table
-//     string query = "INSERT INTO activeQuests (questID, questName, category) VALUES (1, 'testQuest', 'programming')";
-//
-//     using (MySqlCommand command = new MySqlCommand(query, connection))
-//     {
-//         int rowsAffected = command.ExecuteNonQuery();
-//
-//         if (rowsAffected > 0)
-//         {
-//             MessageBox.Show("Quest added successfully!");
-//         }
-//         else
-//         {
-//             MessageBox.Show("Failed to add quest.");
-//         }
-//     }
-// }
