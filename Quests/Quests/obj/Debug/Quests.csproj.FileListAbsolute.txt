@@ -7,7 +7,6 @@ C:\Users\Rea Angeline\Downloads\Repo\Quests\Quests\Quests\obj\Debug\Quests.cspro
 C:\Users\Rea Angeline\Downloads\Repo\Quests\Quests\Quests\obj\Debug\Quests.csproj.CoreCompileInputs.cache
 C:\Users\Rea Angeline\Downloads\Repo\Quests\Quests\Quests\obj\Debug\Quests.exe
 C:\Users\Rea Angeline\Downloads\Repo\Quests\Quests\Quests\obj\Debug\Quests.pdb
-C:\Users\Rea Angeline\Downloads\Repo\Quests\Quests\Quests\obj\Debug\Quests.Form1.resources
 C:\Users\Rea Angeline\Downloads\Repo\Quests\Quests\Quests\bin\Debug\BouncyCastle.Cryptography.dll
 C:\Users\Rea Angeline\Downloads\Repo\Quests\Quests\Quests\bin\Debug\Google.Protobuf.dll
 C:\Users\Rea Angeline\Downloads\Repo\Quests\Quests\Quests\bin\Debug\K4os.Compression.LZ4.dll
@@ -84,3 +83,4 @@ D:\Projects\Quests\Quests\Quests\obj\Debug\Quests.csproj.CoreCompileInputs.cache
 D:\Projects\Quests\Quests\Quests\obj\Debug\Quests.csproj.CopyComplete
 D:\Projects\Quests\Quests\Quests\obj\Debug\Quests.exe
 D:\Projects\Quests\Quests\Quests\obj\Debug\Quests.pdb
+C:\Users\Rea Angeline\Downloads\Repo\Quests\Quests\Quests\obj\Debug\Quests.MainForm.resources

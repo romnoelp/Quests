@@ -1,16 +1,16 @@
 ﻿using System;
+using System.Drawing;
 using System.Windows.Forms;
 
 namespace Quests
 {
-    public partial class Form1 : Form
+    public partial class MainForm : Form
     {
-        
-        
-        public Form1()
+        public MainForm()
         {
             InitializeComponent();
             SpawnAtBottomLeft();
+            CreateAndUpdateRunningPanel();
         }
 
         private void SpawnAtBottomLeft()
@@ -27,6 +27,19 @@ namespace Quests
             AddQuestForm addQuestForm = new AddQuestForm();
             addQuestForm.StartPosition = FormStartPosition.CenterScreen;
             addQuestForm.ShowDialog();
+        }
+
+        private void CreateAndUpdateRunningPanel()
+        {
+            Panel panel = new Panel();
+            panel.BorderStyle = BorderStyle.FixedSingle;
+            panel.Size = new System.Drawing.Size(310, 50);
+            panel.Padding = new Padding(10, 5, 10, 5);
+            int leftMargin = (flowLayoutPanel.Width - panel.Width / 2);
+            panel.Location = new Point(leftMargin, panel.Location.Y);
+            panel.BackColor = Color.Aqua;
+            
+            flowLayoutPanel.Controls.Add(panel);
         }
     }
 }

@@ -6,7 +6,7 @@ namespace Quests
 {
     public partial class AddQuestForm : Form
     {
-        private const string ConnectionString = "Server=localhost;Database=quests;User ID=Aremenel;Password=LourieJane02!;";
+        private const string ConnectionString = "Server=localhost;Database=quests;User ID=root;Password=root;";
 
         private const string FillInformationMessage = "Please fill out both the information needed for the quest!";
         private const string FillQuestNameMessage = "Please fill a quest name before undergoing one!";
@@ -16,6 +16,7 @@ namespace Quests
         public AddQuestForm()
         {
             InitializeComponent();
+            GetComboBoxCollectionFromDb();
         }
 
         private void addQuest_Click(object sender, EventArgs e)
@@ -64,7 +65,7 @@ namespace Quests
             {
                 connection.Open();
 
-                string insertQuery = "INSERT INTO ActiveQuests (questName, category) VALUES (@questName, @category)";
+                string insertQuery = "INSERT INTO activeQuests (questName, questCategory) VALUES (@questName, @category)";
 
                 using (MySqlCommand cmd = new MySqlCommand(insertQuery, connection))
                 {
@@ -72,6 +73,26 @@ namespace Quests
                     cmd.Parameters.AddWithValue("@category", category);
 
                     cmd.ExecuteNonQuery();
+                }
+            }
+        }
+
+        private void GetComboBoxCollectionFromDb()
+        {
+            questCategory.Items.Clear();
+            using (MySqlConnection connection = new MySqlConnection(ConnectionString))
+            {
+                connection.Open();
+                String selectQuery = "SELECT categoryName FROM questCategory";
+                using (MySqlCommand cmd = new MySqlCommand(selectQuery, connection))
+                {
+                    using (MySqlDataReader reader = cmd.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            questCategory.Items.Add(reader["categoryName"].ToString());
+                        }
+                    }
                 }
             }
         }
