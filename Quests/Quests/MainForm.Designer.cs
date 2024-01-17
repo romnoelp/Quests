@@ -31,9 +31,9 @@
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.flowLayoutPanel = new System.Windows.Forms.FlowLayoutPanel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.addQuestButton = new System.Windows.Forms.Button();
+            this.flowLayoutPanel = new System.Windows.Forms.FlowLayoutPanel();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -44,7 +44,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(322, 30);
+            this.panel1.Size = new System.Drawing.Size(342, 30);
             this.panel1.TabIndex = 0;
             // 
             // label1
@@ -53,45 +53,45 @@
             this.label1.Font = new System.Drawing.Font("Minecraft", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(0, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(322, 27);
+            this.label1.Size = new System.Drawing.Size(342, 27);
             this.label1.TabIndex = 0;
             this.label1.Text = "Running Quests:";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // flowLayoutPanel
-            // 
-            this.flowLayoutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowLayoutPanel.Location = new System.Drawing.Point(0, 30);
-            this.flowLayoutPanel.Name = "flowLayoutPanel";
-            this.flowLayoutPanel.Size = new System.Drawing.Size(322, 431);
-            this.flowLayoutPanel.TabIndex = 2;
             // 
             // panel2
             // 
             this.panel2.Controls.Add(this.addQuestButton);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 341);
+            this.panel2.Location = new System.Drawing.Point(0, 371);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(322, 120);
+            this.panel2.Size = new System.Drawing.Size(342, 90);
             this.panel2.TabIndex = 3;
             // 
             // addQuestButton
             // 
             this.addQuestButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.addQuestButton.Font = new System.Drawing.Font("Minecraft", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.addQuestButton.Location = new System.Drawing.Point(270, 75);
+            this.addQuestButton.Font = new System.Drawing.Font("Minecraft", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.addQuestButton.Location = new System.Drawing.Point(220, 31);
             this.addQuestButton.Name = "addQuestButton";
-            this.addQuestButton.Size = new System.Drawing.Size(41, 31);
+            this.addQuestButton.Size = new System.Drawing.Size(81, 34);
             this.addQuestButton.TabIndex = 0;
-            this.addQuestButton.Text = "+";
+            this.addQuestButton.Text = "Go on a mission!";
             this.addQuestButton.UseVisualStyleBackColor = true;
             this.addQuestButton.Click += new System.EventHandler(this.addQuestButton_Click);
+            // 
+            // flowLayoutPanel
+            // 
+            this.flowLayoutPanel.AutoScroll = true;
+            this.flowLayoutPanel.Location = new System.Drawing.Point(0, 30);
+            this.flowLayoutPanel.Name = "flowLayoutPanel";
+            this.flowLayoutPanel.Size = new System.Drawing.Size(339, 346);
+            this.flowLayoutPanel.TabIndex = 2;
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(322, 461);
+            this.ClientSize = new System.Drawing.Size(342, 461);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.flowLayoutPanel);
             this.Controls.Add(this.panel1);

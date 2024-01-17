@@ -57,7 +57,7 @@ namespace Quests
             this.questLabel.Font = new System.Drawing.Font("Minecraft", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.questLabel.Location = new System.Drawing.Point(-1, -2);
             this.questLabel.Name = "questLabel";
-            this.questLabel.Size = new System.Drawing.Size(93, 40);
+            this.questLabel.Size = new System.Drawing.Size(55, 40);
             this.questLabel.TabIndex = 0;
             this.questLabel.Text = "Quest:";
             this.questLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -86,9 +86,9 @@ namespace Quests
             // addQuest
             // 
             this.addQuest.Font = new System.Drawing.Font("Minecraft", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.addQuest.Location = new System.Drawing.Point(109, 64);
+            this.addQuest.Location = new System.Drawing.Point(135, 41);
             this.addQuest.Name = "addQuest";
-            this.addQuest.Size = new System.Drawing.Size(210, 33);
+            this.addQuest.Size = new System.Drawing.Size(153, 33);
             this.addQuest.TabIndex = 4;
             this.addQuest.Text = "Add quest!";
             this.addQuest.UseVisualStyleBackColor = true;
@@ -97,7 +97,7 @@ namespace Quests
             // questString
             // 
             this.questString.Font = new System.Drawing.Font("Minecraft", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.questString.Location = new System.Drawing.Point(89, 9);
+            this.questString.Location = new System.Drawing.Point(60, 9);
             this.questString.Name = "questString";
             this.questString.Size = new System.Drawing.Size(125, 21);
             this.questString.TabIndex = 1;
@@ -106,7 +106,7 @@ namespace Quests
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(427, 109);
+            this.ClientSize = new System.Drawing.Size(427, 82);
             this.Controls.Add(this.addQuest);
             this.Controls.Add(this.questCategory);
             this.Controls.Add(this.categoryLabel);

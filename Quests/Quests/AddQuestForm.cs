@@ -6,7 +6,7 @@ namespace Quests
 {
     public partial class AddQuestForm : Form
     {
-        private const string ConnectionString = "Server=localhost;Database=quests;User ID=root;Password=root;";
+        private const string ConnectionString = "Server=localhost;Database=quests;User ID=Aremenel;Password=LourieJane02!;";
 
         private const string FillInformationMessage = "Please fill out both the information needed for the quest!";
         private const string FillQuestNameMessage = "Please fill a quest name before undergoing one!";
@@ -16,6 +16,7 @@ namespace Quests
         public AddQuestForm()
         {
             InitializeComponent();
+            FollowLastCharacter();
             GetComboBoxCollectionFromDb();
         }
 
@@ -65,7 +66,7 @@ namespace Quests
             {
                 connection.Open();
 
-                string insertQuery = "INSERT INTO activeQuests (questName, questCategory) VALUES (@questName, @category)";
+                string insertQuery = "INSERT INTO activeQuests (questName, category) VALUES (@questName, @category)";
 
                 using (MySqlCommand cmd = new MySqlCommand(insertQuery, connection))
                 {
@@ -83,7 +84,7 @@ namespace Quests
             using (MySqlConnection connection = new MySqlConnection(ConnectionString))
             {
                 connection.Open();
-                String selectQuery = "SELECT categoryName FROM questCategory";
+                String selectQuery = "SELECT categoryName FROM questcategory";
                 using (MySqlCommand cmd = new MySqlCommand(selectQuery, connection))
                 {
                     using (MySqlDataReader reader = cmd.ExecuteReader())
@@ -95,6 +96,13 @@ namespace Quests
                     }
                 }
             }
+        }
+        
+        private void FollowLastCharacter()
+        {
+            // Move the cursor to the end of the text
+            questString.SelectionStart = questString.Text.Length;
+            questString.ScrollToCaret();
         }
     }
 }

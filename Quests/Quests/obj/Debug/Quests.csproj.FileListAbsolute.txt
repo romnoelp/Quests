@@ -76,7 +76,6 @@ D:\Projects\Quests\Quests\Quests\bin\Debug\System.Runtime.CompilerServices.Unsaf
 D:\Projects\Quests\Quests\Quests\bin\Debug\System.Threading.Tasks.Extensions.xml
 D:\Projects\Quests\Quests\Quests\obj\Debug\Quests.csproj.AssemblyReference.cache
 D:\Projects\Quests\Quests\Quests\obj\Debug\Quests.AddQuestForm.resources
-D:\Projects\Quests\Quests\Quests\obj\Debug\Quests.Form1.resources
 D:\Projects\Quests\Quests\Quests\obj\Debug\Quests.Properties.Resources.resources
 D:\Projects\Quests\Quests\Quests\obj\Debug\Quests.csproj.GenerateResource.cache
 D:\Projects\Quests\Quests\Quests\obj\Debug\Quests.csproj.CoreCompileInputs.cache
@@ -84,3 +83,4 @@ D:\Projects\Quests\Quests\Quests\obj\Debug\Quests.csproj.CopyComplete
 D:\Projects\Quests\Quests\Quests\obj\Debug\Quests.exe
 D:\Projects\Quests\Quests\Quests\obj\Debug\Quests.pdb
 C:\Users\Rea Angeline\Downloads\Repo\Quests\Quests\Quests\obj\Debug\Quests.MainForm.resources
+D:\Projects\Quests\Quests\Quests\obj\Debug\Quests.MainForm.resources
